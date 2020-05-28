@@ -1,6 +1,11 @@
 # S4TF-CUDA-Dockerized
 Dockerfile for creating a container with Swift for TensorfFlow and CUDA installed.
 
+# System requirements
+* Cuda capable NVIDIA GPU
+* Latest GPU drivers
+* Docker >=19.03
+
 ## Libraries installed
 * CUDA v10.2
 * cuDNN v7.6.5.32
