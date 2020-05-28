@@ -10,7 +10,7 @@ Dockerfile for creating a container with Swift for TensorfFlow and CUDA installe
 - [ ] CUDA tests
 
 ## Build
-`docker build -t pohjao/s4tf`
+`docker build -t pohjao/s4tf .`
 
 ## Run Swift Testfile
 `docker run -v $PWD/tests/:/tests/ --name s4tf_test pohjao/s4tf swift /tests/test.swift`
